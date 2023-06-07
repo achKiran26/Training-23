@@ -16,9 +16,9 @@ import mobileNavigation from '../components/mobile-navigation';
 import headerSearch from '../components/header-search';
 import ajaxSearch from '../components/ajax-search';
 
-mobileNavigation()
-headerSearch()
-ajaxSearch()
+mobileNavigation();
+headerSearch();
+ajaxSearch();
 
 window.headerSearch.init();
 window.mobileNavigation.init();
